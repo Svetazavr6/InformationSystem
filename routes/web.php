@@ -22,6 +22,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/add_patient', 'HomeController@add_patient');
 Route::get('/GlavOsmotr', 'HomeController@GlavOsmotr');
 Route::get('/dannie', 'HomeController@Dannie');
+Route::get('/menu', 'HomeController@menu');
 Route::get('/pervicka', 'HomeController@Pervicka');
 Route::get('/ListNaznacheniy', 'HomeController@ListNaznacheniy');
 Route::get('/ListNaznacheniy2', 'HomeController@ListNaznacheniy2');

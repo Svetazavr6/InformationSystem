@@ -11,6 +11,10 @@ class HomeController extends Controller
     {
         return view('home');
     }
+        public function menu()
+    {
+        return view('menu');
+    }
     public function add_patient()
     {
         return view('add-patients');

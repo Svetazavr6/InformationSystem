@@ -78,15 +78,24 @@
             #hat div{
                  vertical-align: middle;
             }
-            #main .links{
-                margin: 15px;
+            .my_links > a{
+                color: #fff;
+                font-size: 12px;
+                font-weight: 600;
+                text-decoration: none;
+                text-transform: uppercase;
+                background-color: rgba(1);
             }
-            #main .links a{
-                border-bottom: 4px solid transparent;
+            #main .my_links{
+                margin: 2px;
+            }
+            #main .my_links a div{
                 padding: 10px;
-            }
-            #main .links a:hover{
-                border-bottom-color: #4499ff;
+                display: inline-block;
+                width: 20%;
+                height: 100px;
+                outline: 1px solid red;
+                background-size: cover;
             }
         </style>
     </head>
@@ -108,24 +117,15 @@
                     <h1><big>Информационная система лечащего врача</big></h1>
                 </div>
 
-                <div class="links">
-                    <a href="/patients_vievs">Список пациентов</a>
-                    <a href="/dannie">Данные</a>
-                    <a href="/klin_razbor">Клинический разбор</a>
-                    <a href="/GlavOsmotr">Осмотр главного врача</a>
-                              
+                <div class="my_links">
+                    <a href="/palati"><div style="background-image: url('/images/normal_999.jpg');">Палаты</div></a>
+                    <a href="/klin_razbor"><div>Клинический разбор</div></a>
+                    <a href="/GlavOsmotr"><div>Осмотр заведующего отделением</div></a>          
                 </div>
-                <div class="links">
-                    <a href="/pervicka">Первичка</a>
-                    <a href="/palati">Палаты</a>   
-                    <a href="/ListNaznacheniy">Лист назначений №1</a>
-                    <a href="/ListNaznacheniy2">Лист назначений №2</a>
-                </div>
-                <div class="links">    
-                    <a href="/operacia">Назначение операции</a>
-                    <a href="/Gistologiya">Гистология</a>
-                    <a href="/add_patient">Создать карту пациента</a>
-                    
+                <div class="my_links">
+                    <a href="/patients_vievs"><div>Список пацикентов</div></a>     
+                    <a href="/Gistologiya"><div>Гистология</div></a>
+                    <a href="/add_patient"><div style="background-image: url(/images/286-300x199.jpg);">Создать карту пациента</div></a>  
                 </div>
             </div>
         </div>
