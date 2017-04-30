@@ -162,15 +162,233 @@
           </table>
       </div>
       <div id="bak" class="tab-pane fade">
-        <p>Содержимое 3 панели...</p>
+        <h3>Биохимический анализ крови.</h3>
+          <p>ГБУЗС «Городская больница №9»</p>
+          <p>Клинико-диагностическая лаборатория</p>
+          <b>Биохимический анализ крови №1.</b>
+          <p>Дата: <text id="t2"></text></p>
+          <p>Дата взятия биоматериала <input type=date></p>
+          <table class="table table-bordered table-striped" style="width:50%;">
+              <tr><td>ФИО</td><td><input type="text"></td></tr>
+              <tr><td>Год рождения:</td><td><input type=date></td></tr>
+              <tr><td>Палата №</td><td><input type="number"></td></tr>
+              <tr><td>Номер медкарты</td><td><input type="number"></td></tr>
+              <tr><td>Врач</td><td><input type=text></td></tr>
+          </table>
+          <table class="table table-bordered table-striped" style="width:50%;">
+              <tr>
+                  <th>Исследуемый компонент</th>
+                  <th>Результат исследования</th>
+                  <th>Референтное значение</th>
+              </tr>
+              <tr>
+                  <td>Билирубин общий</td>
+                  <td><textarea></textarea></td>
+                  <td>5.0 -21.0 мкмоль/л</td>
+              </tr>
+              <tr>
+                  <td>Билирубин связанный</td>
+                  <td><textarea></textarea></td>
+                  <td>< 3.4 мкмоль/л</td>
+              </tr>
+              <tr>
+                  <td>АСТ</td>
+                  <td><textarea></textarea></td>
+                  <td>< 37 Е/л</td>
+              </tr>
+              <tr>
+                  <td>АЛТ</td>
+                  <td><textarea></textarea></td>
+                  <td>< 37 Е/л</td>
+              </tr>
+              <tr>
+                  <td>Щелочная фосфатаза</td>
+                  <td><textarea></textarea></td>
+                  <td>Дети до 16 лет:< 360 Е/л<br>м: 41-137 Е/л<br>ж: 39-118 Е/л</td>
+              </tr>
+              <tr>
+                  <td>ЛДГ</td>
+                  <td><textarea></textarea></td>
+                  <td>195 – 450 Е/л</td>
+              </tr>
+              <tr>
+                  <td>a-ГБДГ (ЛДГ)</td>
+                  <td><textarea></textarea></td>
+                  <td>< 182 Е/л</td>
+              </tr>
+              <tr>
+                  <td>ГГТП</td>
+                  <td></td>
+                  <td>м: < 50 Е/л<br>ж: < 32 Е/л</td>
+              </tr>
+              <tr>
+                  <td>Холестерин</td>
+                  <td><textarea></textarea></td>
+                  <td>< 5.2 ммоль/л</td>
+              </tr>
+              <tr>
+                  <td>Глюкоза</td>
+                  <td><textarea></textarea></td>
+                  <td>3.9-5.8 ммоль/л</td>
+              </tr>
+              <tr>
+                  <td>a-Амилаза</td>
+                  <td></td>
+                  <td>< 100 Е/л</td>
+              </tr>
+              <tr>
+                  <td>Мочевина</td>
+                  <td><textarea></textarea></td>
+                  <td>2.50-8.32 ммоль/л</td>
+              </tr>
+              <tr>
+                  <td>Креатинин</td>
+                  <td><textarea></textarea></td>
+                  <td>м: 71-115 мкмоль/л<br>ж: 53-106 мкмоль/л</td>
+              </tr>
+              <tr>
+                  <td>Мочевая кислота</td>
+                  <td><textarea></textarea></td>
+                  <td>м: 214-458 мкмоль/л<br>ж: 149-405 мкмоль/л</td>
+              </tr>
+              <tr>
+                  <td>Альбумин</td>
+                  <td><textarea></textarea></td>
+                  <td>35.0-50.0 г/л</td>
+              </tr>
+              <tr>
+                  <td>Общий белок</td>
+                  <td><textarea></textarea></td>
+                  <td>65.0-85.0 г/л</td>
+              </tr>
+              <tr>
+                  <td>С-реактивный белок (СРБ)</td>
+                  <td><textarea></textarea></td>
+                  <td>< 6 мг/л</td>
+              </tr>
+              <tr>
+                  <td>Железо сывороточное</td>
+                  <td><textarea></textarea></td>
+                  <td>9.5 – 30.0 мкмоль/л</td>
+              </tr>
+              <tr>
+                  <td>Калий</td>
+                  <td><textarea></textarea></td>
+                  <td>3.5 – 5.3 ммоль/л</td>
+              </tr>
+              <tr>
+                  <td>Натрий</td>
+                  <td><textarea></textarea></td>
+                  <td>135.0 – 148.0 ммоль/л</td>
+              </tr>
+              <tr>
+                  <td>Хлориды</td>
+                  <td><textarea></textarea></td>
+                  <td>98.0 – 107.0 ммоль/л</td>
+              </tr>
+              <tr>
+                  <td>Кальций общий</td>
+                  <td><textarea></textarea></td>
+                  <td>2.15 – 2.55 ммоль/л</td>
+              </tr>
+              <tr>
+                  <td>Фосфор неорганический</td>
+                  <td><textarea></textarea></td>
+                  <td>0.87- 1.45 ммоль/л</td>
+              </tr>
+          </table>
       </div>
       <div id="psa" class="tab-pane fade">
-        <p>Содержимое 4 панели...</p>
+          <h3>Анализ крови №1.</h3>
+          <p>Дата: <text id="t3"></text>
+          </p>
+          <p>Дата взятия биоматериала <input type=date></p>
+          <table class="table table-bordered table-striped" style="width:50%;">
+              <tr><td>ФИО</td><td><input type="text"></td></tr>
+              <tr><td>Год рождения:</td><td><input type=date></td></tr>
+              <tr><td>Палата №</td><td><input type="number"></td></tr>
+              <tr><td>Номер медкарты</td><td><input type="number"></td></tr>
+              <tr><td>Врач</td><td><input type=text></td></tr>
+          </table>
+          <table class="table table-bordered table-striped">
+              <tr>
+                  <th>Исследуемый компонент</th>
+                  <th>Результат исследования</th>
+                  <th>Референтные значения</th>
+              </tr>
+              <tr>
+                  <td>ПСА общий</td>
+                  <td><textarea></textarea></td>
+                  <td> < 4.0 нг/мл</td>
+              </tr>
+              <tr>
+                  <td>ПСА свободный</td>
+                  <td><textarea></textarea></td>
+                  <td>< .42 нг/мл</td>
+              </tr>
+              <tr>
+                  <td>ПСА общий/ПСА свободный (индекс)</td>
+                  <td><textarea></textarea></td>
+                  <td>15% - благоприятный прогноз</td>
+              </tr>
+          </table>
       </div>
       <div id="koagulogram" class="tab-pane fade">
-        <p>Содержимое 5 панели...</p>
+         <h3>Коагулограмма крови</h3>
+          <p>ГБУЗС «Городская больница №9»</p>
+          <p>Клинико-диагностическая лаборатория</p>
+          <b>Коагулограмма крови № 1</b>
+          <p>Дата: <text id="t4"></text></p>
+          <p>Дата взятия биоматериала <input type=date></p>
+          <table class="table table-bordered table-striped" style="width:auto;">
+              <tr><td>ФИО</td><td><input type="text"></td></tr>
+              <tr><td>Год рождения:</td><td><input type=date></td></tr>
+              <tr><td>Палата №</td><td><input type="number"></td></tr>
+              <tr><td>Номер медкарты</td><td><input type="number"></td></tr>
+              <tr><td>Врач</td><td><input type=text></td></tr>
+          </table>
+          <table class="table table-bordered table-striped" style="width:auto;">
+              <tr>
+                  <th>Исследуемый компонент</th>
+                  <th>Результат исследования</th>
+                  <th>Референтные значения</th>
+              </tr>
+              <tr>
+                  <td>АЧТВ</td>
+                  <td><textarea></textarea></td>
+                  <td>25 – 35 секунд</td>
+              </tr>
+              <tr>
+                  <td>Протромбин по Квику (в %)</td>
+                  <td><textarea></textarea></td>
+                  <td>70 – 130 %</td>
+              </tr>
+              <tr>
+                  <td>МНО (INR)</td>
+                  <td><textarea></textarea></td>
+                  <td>0.7 – 1.2</td>
+              </tr>
+              <tr>
+                  <td>Тромбиновое время</td>
+                  <td><textarea></textarea></td>
+                  <td>14.0 – 17.0 секунд</td>
+              </tr>
+              <tr>
+                  <td>Фибриноген (по Клауссу)</td>
+                  <td><textarea></textarea></td>
+                  <td>2.0 – 4.0 г/л</td>
+              </tr>
+          </table>
       </div>
     </div>
 </div>
-
+<script>
+    var dt=new Date();
+    var month = dt.getMonth()+1;
+    var day = dt.getDate();
+    var year = dt.getFullYear();
+    document.getElementById('t2').innerHTML = dt.toDateString();
+    document.getElementById('t3').innerHTML = dt.toDateString();
+    document.getElementById('t4').innerHTML = dt.toDateString();
+</script>
 @endsection
