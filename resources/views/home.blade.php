@@ -66,18 +66,6 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-            #hat{
-                padding: 50px 0 50px 0;
-                background-color: rgba(0, 0, 0, 0.3);
-                width: 100wv;
-                vertical-align: text-bottom;
-                color: white;
-                border-radius: 15px;
-                text-shadow: #2266ff 0 0 4px;
-            }
-            #hat div{
-                 vertical-align: middle;
-            }
             .my_links > a{
                 color: #fff;
                 font-size: 12px;
@@ -113,9 +101,6 @@
             @endif
 
             <div id="main" class="content">
-                <div id="hat">
-                    <h1><big>Информационная система лечащего врача</big></h1>
-                </div>
 
                 <div class="my_links">
                     <a href="/palati"><div style="background-image: url('/images/normal_999.jpg');">Палаты</div></a>
