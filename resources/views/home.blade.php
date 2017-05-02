@@ -68,11 +68,13 @@
             }
             .my_links > a{
                 color: #fff;
-                font-size: 12px;
+                font-size: 30px;
                 font-weight: 600;
                 text-decoration: none;
                 text-transform: uppercase;
-                background-color: rgba(1);
+                display: inline-block;
+                vertical-align:middle;
+                outline: 1px solid blue;
             }
             #main .my_links{
                 margin: 2px;
@@ -80,10 +82,13 @@
             #main .my_links a div{
                 padding: 10px;
                 display: inline-block;
-                width: 20%;
-                height: 100px;
-                outline: 1px solid red;
-                background-size: cover;
+                min-height: 230px;
+                width: 230px;
+                text-align: center;
+                vertical-align:middle;
+                outline: 1px solid green;
+                border-radius: 5px;
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 180, 225, 1));
             }
         </style>
     </head>
@@ -103,14 +108,14 @@
             <div id="main" class="content">
 
                 <div class="my_links">
-                    <a href="/palati"><div style="background-image: url('/images/normal_999.jpg');">Палаты</div></a>
+                    <a href="/palati"><div>Палаты</div></a>
                     <a href="/klin_razbor"><div>Клинический разбор</div></a>
-                    <a href="/GlavOsmotr"><div>Осмотр заведующего отделением</div></a>          
+                    <a href="/GlavOsmotr" ><div>Осмотр заведующего отделением</div></a>          
                 </div>
                 <div class="my_links">
                     <a href="/patients_vievs"><div>Список пацикентов</div></a>     
                     <a href="/Gistologiya"><div>Гистология</div></a>
-                    <a href="/add_patient"><div style="background-image: url(/images/286-300x199.jpg);">Создать карту пациента</div></a>  
+                    <a href="/add_patient"><div>Создать карту пациента</div></a>  
                 </div>
             </div>
         </div>

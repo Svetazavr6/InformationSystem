@@ -114,7 +114,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      <a class="navbar-brand" href="/">Информационная система лечащего врача</a>
+      <a class="navbar-brand" href="/home">Информационная система лечащего врача</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
