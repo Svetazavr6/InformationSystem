@@ -113,7 +113,7 @@ var myChart = new Chart(ctx, {
         labels: ["27.04.2017", "28.04.2017", "29.04.2017", "30.04.2017", "01.05.2017", "02.05.2017"],
         datasets: [{
             label: 'Температура',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [40, 40, 39.5, 38, 37, 36.6],
             backgroundColor: ['rgba(55, 255, 132, 0.2)'],
             borderColor: ['rgba(55,255,132,1)'],
             borderWidth: 1
@@ -123,7 +123,7 @@ var myChart = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero:true
+                    beginAtZero:false
                 }
             }]
         }
