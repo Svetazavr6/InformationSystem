@@ -96,9 +96,38 @@
             <td>11</td>
         </tr>
     </table>
-    <br><br>
     <a href="dokumenti"><button class="btn btn-success">Посмотреть приложенные документы</button></a>
     
     <br><br>
+    <div>   
+        <h2>График изменения температуры пациента</h2>      
+        <canvas id="myChart" width="200" height="200"></canvas>
+    </div>
 </div>
+<script src="js/node_modules/chart.js/dist/Chart.js"></script>
+<script>
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ["27.04.2017", "28.04.2017", "29.04.2017", "30.04.2017", "01.05.2017", "02.05.2017"],
+        datasets: [{
+            label: 'Температура',
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: ['rgba(55, 255, 132, 0.2)'],
+            borderColor: ['rgba(55,255,132,1)'],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>
 @endsection
