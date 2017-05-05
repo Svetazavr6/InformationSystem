@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
@@ -67,28 +68,34 @@
                 margin-bottom: 30px;
             }
             .my_links > a{
+                display: inline-block;
+                vertical-align:middle;
                 color: #fff;
-                font-size: 30px;
+                font-size: 22px;
                 font-weight: 600;
                 text-decoration: none;
                 text-transform: uppercase;
-                display: inline-block;
-                vertical-align:middle;
-                outline: 1px solid blue;
+                text-align: center;
+                padding: 10px;
+                min-height: 230px;
+                border-radius: 5px;
+                border: 2px solid rgb(0, 180, 225);
+                background-color: rgba(0, 180, 225, 0.1);
+            }
+            .my_links > a:hover{
+                background-color: rgba(0, 180, 225, 0.5);
             }
             #main .my_links{
                 margin: 2px;
             }
             #main .my_links a div{
-                padding: 10px;
-                display: inline-block;
-                min-height: 230px;
-                width: 230px;
-                text-align: center;
-                vertical-align:middle;
-                outline: 1px solid green;
-                border-radius: 5px;
-                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 180, 225, 1));
+                background-repeat: no-repeat;
+                margin: auto;
+                background-size: contain;
+                border: 2px solid #333;
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
             }
         </style>
     </head>
@@ -106,16 +113,35 @@
             @endif
 
             <div id="main" class="content">
-
-                <div class="my_links">
-                    <a href="/palati"><div>Палаты</div></a>
-                    <a href="/klin_razbor"><div>Клинический разбор</div></a>
-                    <a href="/GlavOsmotr" ><div>Осмотр заведующего отделением</div></a>          
+                <div>
+                    Текст. <p>параграф</p> 
+                    <input type="button" onclick="this.style='display: none'; print();" value="Распечатать"/>
                 </div>
                 <div class="my_links">
-                    <a href="/patients_vievs"><div>Список пацикентов</div></a>     
-                    <a href="/Gistologiya"><div>Гистология</div></a>
-                    <a href="/add_patient"><div>Создать карту пациента</div></a>  
+                    <a href="/palati" class="col-xs-12 col-sm-6 col-md-4">
+                        <div style="background-image: url('images/icons/bed_icon-icons.com_66069.png');"></div>
+                        Палаты
+                    </a>
+                    <a href="/klin_razbor" class="col-xs-12 col-sm-6 col-md-4">
+                        <div style="background-image: url('images/icons/medical-04_icon-icons.com_73919.png');"></div>
+                        Клинический разбор
+                    </a>
+                    <a href="/GlavOsmotr" class="col-xs-12 col-sm-6 col-md-4">
+                        <div style="background-image: url('images/icons/medical-29_icon-icons.com_73943.png');"></div>
+                        Осмотр заведующего отделением
+                    </a>          
+                    <a href="/patients_vievs" class="col-xs-12 col-sm-6 col-md-4">
+                        <div style="background-image: url('images/icons/medical-06_icon-icons.com_73937.png');"></div>
+                        Список пацикентов
+                    </a>     
+                    <a href="/Gistologiya" class="col-xs-12 col-sm-6 col-md-4">
+                        <div style="background-image: url('images/icons/');"></div>
+                        Гистология
+                    </a>
+                    <a href="/add_patient" class="col-xs-12 col-sm-6 col-md-4">
+                        <div style="background-image: url('images/icons/medical-12_icon-icons.com_73944.png');"></div>
+                        Создать карту пациента
+                    </a>  
                 </div>
             </div>
         </div>
