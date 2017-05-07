@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv='Content-Language' content='ru-RU'/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
         <title>Laravel</title>
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -91,11 +91,11 @@
             #main .my_links a div{
                 background-repeat: no-repeat;
                 margin: auto;
-                background-size: contain;
+                background-size: cover;
                 border: 2px solid #333;
-                width: 100px;
-                height: 100px;
-                border-radius: 50px;
+                width: 140px;
+                height: 140px;
+                border-radius: 70px;
             }
         </style>
     </head>
@@ -113,13 +113,9 @@
             @endif
 
             <div id="main" class="content">
-                <div>
-                    Текст. <p>параграф</p> 
-                    <input type="button" onclick="this.style='display: none'; print();" value="Распечатать"/>
-                </div>
                 <div class="my_links">
                     <a href="/palati" class="col-xs-12 col-sm-6 col-md-4">
-                        <div style="background-image: url('images/icons/bed_icon-icons.com_66069.png');"></div>
+                        <div style="background-image: url('images/icons/Q2jPe8af_jE.jpg');"></div>
                         Палаты
                     </a>
                     <a href="/klin_razbor" class="col-xs-12 col-sm-6 col-md-4">
@@ -135,7 +131,7 @@
                         Список пацикентов
                     </a>     
                     <a href="/Gistologiya" class="col-xs-12 col-sm-6 col-md-4">
-                        <div style="background-image: url('images/icons/');"></div>
+                        <div style="background-image: url('images/icons/elastic-cartilage-400x.jpg');"></div>
                         Гистология
                     </a>
                     <a href="/add_patient" class="col-xs-12 col-sm-6 col-md-4">

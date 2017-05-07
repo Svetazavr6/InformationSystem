@@ -12,6 +12,9 @@
     
     <div class="tab-content">
       <div id="oak" class="tab-pane fade in active">
+      <div>
+        <input type="button" class="btn btn-default" onclick="this.style='display: none'; print();" value="Распечатать"/>
+      </div>
  <h3>Клинический анализ крови №1.</h3>
           <p>Дата: <text id="t"></text>
               <script>
@@ -23,7 +26,7 @@
               </script>
           </p>
         <div>
-            <table class="table table-bordered table-striped" style="width:90%;">
+            <table class="table table-bordered table-striped" >
                  <tr>
                      <td>Дата взятия биоматериала</td><td style="width: 70%;"><input type="date"></td>
                  </tr>
@@ -33,7 +36,7 @@
                 <tr><td>Участок медкарта</td><td style="width: 70%;"><input type=number value=1></td></tr>
                 <tr><td>ФИО врача</td><td style="width: 70%;"><input type=text value="..."></td></tr>
              </table>
-            <table class="table table-bordered table-striped" style="width:90%;">
+            <table class="table table-bordered table-striped col-xs-12 col-sm-11 col-md-11">
                 <tr>
                     <th>Исследуемый компонент</th>
                     <th>Результат исследования</th>
@@ -73,6 +76,9 @@
         </div>
         </div>
       <div id="oam" class="tab-pane fade">
+      <div>
+        <input type="button" class="btn btn-default" onclick="this.style='display: none'; print();" value="Распечатать"/>
+      </div>
           <h3>Общий анализ мочи</h3>
           <p>ГБУЗС «Городская больница №9»</p>
           <p>Клинико-диагностическая лаборатория</p>
@@ -85,7 +91,7 @@
               <tr><td>Участок Медкарта</td><td>1</td></tr>
               <tr><td>ФИО врача</td><td>...</td></tr>
           </table>
-          <table class="table table-bordered table-striped" style="width:auto;">
+          <table class="table table-bordered table-striped col-xs-12 col-sm-11 col-md-11">
              <tr>
                  <th>Исследуемый компонент</th>
                  <th>Результат исследования</th>
@@ -162,6 +168,9 @@
           </table>
       </div>
       <div id="bak" class="tab-pane fade">
+      <div>
+        <input type="button" class="btn btn-default" onclick="this.style='display: none'; print();" value="Распечатать"/>
+      </div>
         <h3>Биохимический анализ крови.</h3>
           <p>ГБУЗС «Городская больница №9»</p>
           <p>Клинико-диагностическая лаборатория</p>
@@ -175,7 +184,7 @@
               <tr><td>Номер медкарты</td><td><input type="number"></td></tr>
               <tr><td>Врач</td><td><input type=text></td></tr>
           </table>
-          <table class="table table-bordered table-striped" style="width:50%;">
+          <table class="table table-bordered table-striped col-xs-12 col-sm-11 col-md-11">
               <tr>
                   <th>Исследуемый компонент</th>
                   <th>Результат исследования</th>
@@ -299,6 +308,9 @@
           </table>
       </div>
       <div id="psa" class="tab-pane fade">
+      <div>
+        <input type="button" class="btn btn-default" onclick="this.style='display: none'; print();" value="Распечатать"/>
+      </div>
           <h3>Анализ крови №1.</h3>
           <p>Дата: <text id="t3"></text>
           </p>
@@ -310,7 +322,7 @@
               <tr><td>Номер медкарты</td><td><input type="number"></td></tr>
               <tr><td>Врач</td><td><input type=text></td></tr>
           </table>
-          <table class="table table-bordered table-striped">
+          <table class="table table-bordered table-striped col-xs-12 col-sm-11 col-md-11">
               <tr>
                   <th>Исследуемый компонент</th>
                   <th>Результат исследования</th>
@@ -334,6 +346,9 @@
           </table>
       </div>
       <div id="koagulogram" class="tab-pane fade">
+        <div>
+            <input type="button" class="btn btn-default" onclick="this.style='display: none'; print();" value="Распечатать"/>
+        </div>
          <h3>Коагулограмма крови</h3>
           <p>ГБУЗС «Городская больница №9»</p>
           <p>Клинико-диагностическая лаборатория</p>
@@ -347,7 +362,7 @@
               <tr><td>Номер медкарты</td><td><input type="number"></td></tr>
               <tr><td>Врач</td><td><input type=text></td></tr>
           </table>
-          <table class="table table-bordered table-striped" style="width:auto;">
+          <table class="table table-bordered table-striped col-xs-12 col-sm-11 col-md-11">
               <tr>
                   <th>Исследуемый компонент</th>
                   <th>Результат исследования</th>

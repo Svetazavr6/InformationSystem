@@ -3,16 +3,6 @@
 @section('content')
 <div class="container">
     <table class="table table-bordered" style="width:auto;">
-<!--
-        <tr>
-            <td>
-            
-            </td>
-            <td>
-            
-            </td>
-        </tr>
--->
         <tr><td>ФИО</td><td></td></tr>
         <tr><td>№ и/б</td><td></td></tr>
         <tr><td>Дата поступления</td><td></td></tr>

@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container"> 
-    <table class="table table-bordered table-striped" style="width:90%;">
+    <table class="table table-bordered table-striped col-xs-12 col-sm-11 col-md-11">
         <tr><td><p>Жалобы</p></td><td>боли в поясничной области, иррадиирующие вниз живота, тошнота</td></tr>
         <tr><td><p>Anamnesis morbi</p></td><td>Тут что-то</td></tr>
         <tr><td><p>Anamnesis vitae</p></td><td>Тут что-то</td></tr>
